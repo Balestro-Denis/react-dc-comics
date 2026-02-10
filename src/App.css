@@ -66,3 +66,30 @@
   font-size: 14px;
   cursor: pointer;
 }
+.blue-bar {
+  background-color: #0282f9;
+  padding: 50px 0;
+}
+.blue-bar-list {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 50px;
+}
+.blue-bar-list li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+  font-size: 10px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.blue-bar-list img {
+  height: 35px;
+  width: auto;
+  display: block;
+}
